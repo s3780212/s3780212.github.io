@@ -2435,6 +2435,58 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* ImageSquare */
+
+	.imageSquare {
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.imageSquare img {
+			display: block;
+		}
+
+		.imageSquare.left, .imageSquare.right {
+			max-width: 40%;
+		}
+
+			.imageSquare.left img, .imageSquare.right img {
+				width: 100%;
+			}
+
+		.imageSquare.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.imageSquare.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.imageSquare.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.imageSquare.fit img {
+				width: 100%;
+			}
+
+		.imageSquare.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.imageSquare.main img {
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
